@@ -13,17 +13,12 @@
     "@fontsource/fira-mono": "^4.5.10",
     "@neoconfetti/svelte": "^1.0.0",
     "@sveltejs/adapter-cloudflare": "^2.3.0",
-    "@sveltejs/kit": "^1.5.0",
+    "@sveltejs/kit": "https://gitpkg.now.sh/sveltejs/kit/packages/kit?gh-5689",
     "@types/cookie": "^0.5.1",
     "svelte": "^3.54.0",
     "svelte-check": "^3.0.1",
     "typescript": "^5.0.0",
     "vite": "^4.3.0"
   },
-  "type": "module",
-  "pnpm": {
-    "overrides": {
-      "@sveltejs/kit": "kit/packages/kit"
-    }
-  }
+  "type": "module"
 }
