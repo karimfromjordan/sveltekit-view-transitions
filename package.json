@@ -2,7 +2,6 @@
   "name": "view-transitions",
   "version": "0.0.1",
   "scripts": {
-    "clone": "git clone --branch gh-5689 https://github.com/sveltejs/kit.git && cd kit/packages/kit && pnpm i",
     "dev": "vite dev",
     "build": "vite build",
     "preview": "vite preview",
