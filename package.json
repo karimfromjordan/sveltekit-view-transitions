@@ -4,7 +4,7 @@
   "scripts": {
     "clone": "git clone --branch gh-5689 https://github.com/sveltejs/kit.git && cd kit/packages/kit && pnpm i",
     "dev": "vite dev",
-    "build": "pnpm clone && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
